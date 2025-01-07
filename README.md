@@ -1,8 +1,6 @@
 ## ai_backup
 https://github.com/syuilo/ai のバックアップスクリプトです。
-
 記述ミスのみchatGPTに直してもらってます。
-
 ディレクトリごとのバックアップなのでDockerで動かしているものならなんでも使えると思います(検証してませんので悪しからず)
 
 ## 必要なコマンド
@@ -18,5 +16,5 @@ chmod +x ai_backup.sh
 ```
 crontab -e
 # 3時に実行する場合
-0 4 * * * /home/ai/ai_backup.sh
+0 3 * * * /home/ai/ai_backup.sh
 ```
