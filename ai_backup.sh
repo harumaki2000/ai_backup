@@ -13,7 +13,7 @@ DISCORD_WEBHOOK_URL="your_discord_webhook_url"
 PASSWORD="your_password"
 
 # Dockerが動いているディレクトリに移動
-cd /home/ai/ai
+cd "${DOCKER_DIR}"
 
 # バックアップ開始通知
 curl -H "Content-Type: application/json" -X POST -d "{\"content\": \"📌 データベースのバックアップを開始します。\"}" "$DISCORD_WEBHOOK_URL"
