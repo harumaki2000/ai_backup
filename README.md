@@ -1,10 +1,10 @@
 ## ai_backup
-https://github.com/syuilo/ai のバックアップスクリプトです。
-記述ミスのみchatGPTに直してもらってます。
+https://github.com/syuilo/ai のバックアップスクリプトです。  
+記述ミスのみchatGPTに直してもらってます。  
 ディレクトリごとのバックアップなのでDockerで動かしているものならなんでも使えると思います(検証してませんので悪しからず)
 
 ## 必要なコマンド
-google-drive-ocamlfuseを使用しています。
+`google-drive-ocamlfuse`を使用しています。  
 [Ubuntu/LinuxにGoogleDriveをマウントする](https://zenn.dev/harumaki2000/articles/5ec7fb4cb33d1c) を参考にしてください。
 
 ## スクリプト実行権限付与
