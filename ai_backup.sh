@@ -2,7 +2,7 @@
 
 # バックアップファイル名とディレクトリ名
 BACKUP_FILE="ai_backup$(date +%Y%m%d_%H%M%S).tgz"
-BACKUP_DIR="/home/ai/ai_backup # 一時的なバックアップファイル保存先
+BACKUP_DIR="/home/ai/ai_backup" # 一時的なバックアップファイル保存先
 GOOGLEDRIVE_PATH="/path/to/GoogleDrive" # GoogleDriveのマウントディレクトリ
 
 # Discord Webhook URL
