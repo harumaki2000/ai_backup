@@ -1,7 +1,8 @@
 ## ai_backup
 https://github.com/syuilo/ai のバックアップスクリプトです。  
 記述ミスのみchatGPTに直してもらってます。  
-ディレクトリごとのバックアップなのでDocker環境ならなんでも使えると思います(検証してませんので悪しからず)
+ディレクトリごとのバックアップなのでDocker環境ならなんでも使えると思います  
+Docker環境でのMisskeyバックアップ検証済み
 
 ## 必要なコマンド
 `google-drive-ocamlfuse`を使用しています。  
