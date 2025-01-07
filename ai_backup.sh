@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # バックアップファイル名とディレクトリ名
-BACKUP_FILE="ai_backup$(date +%Y%m%d_%H%M%S).tgz"
+BACKUP_FILE="ai_backup_$(date +%Y%m%d_%H%M%S).tgz"
 BACKUP_DIR="/home/ai/ai_backup" # 一時的なバックアップファイル保存先
 GOOGLEDRIVE_PATH="/home/ai/GoogleDrive" # GoogleDriveのマウントディレクトリ
 DOCKER_DIR="/home/ai/ai" # Dockerが動いているディレクトリ
