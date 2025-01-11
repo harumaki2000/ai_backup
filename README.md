@@ -1,21 +1,12 @@
-## ai_backup
-https://github.com/syuilo/ai のバックアップスクリプトです。  
+## docker_backup
 記述ミスのみchatGPTに直してもらってます。  
 ディレクトリごとのバックアップなのでDocker環境ならなんでも使えると思います  
 Docker環境でのMisskeyバックアップ検証済み
 
 ## 必要なコマンド
-`google-drive-ocamlfuse`を使用しています。  
-[Ubuntu/LinuxにGoogleDriveをマウントする](https://zenn.dev/harumaki2000/articles/5ec7fb4cb33d1c) を参考にしてください。
+`rclone`を使用しています。  
 
 ## スクリプト実行権限付与
 ```
-chmod +x ai_backup.sh
-```
-
-## cron登録
-```
-crontab -e
-# 3時に実行する場合
-0 3 * * * /home/ai/ai_backup.sh
+chmod +x docker_backup.sh
 ```
