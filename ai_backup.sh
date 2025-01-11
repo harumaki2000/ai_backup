@@ -22,7 +22,7 @@ curl -H "Content-Type: application/json" -X POST -d "{\"content\": \"📌 デー
 echo $PASSWORD | sudo -S docker compose down
 
 # ディレクトリをtar.gzで固める
-sudo tar -zvcf "${BACKUP_DIR}/${BACKUP_FILE}" "${DOCKER_DIR}"
+sudo tar -zvcf "${BACKUP_DIR}/${BACKUP_FILE}" -C "${DOCKER_DIR}"/.
 
 if [ $? -eq 0 ]; then
     echo "Database backup successful: ${BACKUP_FILE}"
