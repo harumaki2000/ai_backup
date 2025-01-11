@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # バックアップファイル名とディレクトリ名
-BACKUP_FILE="ai_backup_$(date +%Y%m%d_%H%M%S).tgz"
-BACKUP_DIR="/home/ai/ai_backup" # 一時的なバックアップファイル保存先
-DOCKER_DIR="/home/ai/ai" # Dockerが動いているディレクトリ
+BACKUP_FILE="docker_backup_$(date +%Y%m%d_%H%M%S).tgz"
+BACKUP_DIR="/home/docker/docker_backup" # 一時的なバックアップファイル保存先
+DOCKER_DIR="/home/docker/docker" # Dockerが動いているディレクトリ
 RCLONE_REMOTE="your_rclone_remote" # rcloneで設定したリモート名（例: gdrive）
 RCLONE_DESTINATION="backup_folder" # Google Drive上の保存先フォルダ名
 
