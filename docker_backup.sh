@@ -44,7 +44,7 @@ if [ $? -eq 0 ]; then
     fi
 
     # 7日以上前のバックアップを削除
-    find "${BACKUP_DIR}" -type f -name "ai_backup_*.tgz" -mtime +7 -exec rm {} \;
+    find "${BACKUP_DIR}" -type f -name "docker_backup_*.tgz" -mtime +7 -exec rm {} \;
 
     if [ $? -eq 0 ]; then
         echo "Old backups deleted successfully."
